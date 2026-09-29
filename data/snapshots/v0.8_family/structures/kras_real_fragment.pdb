@@ -1,0 +1,10 @@
+HEADER    TRUSTPROTKG V0.8 REAL-DERIVED KRAS PDB-STYLE FRAGMENT
+TITLE     KRAS_HUMAN COMPACT FRAGMENT WITH REAL RESIDUE NUMBERING
+ATOM      1  CA  GLY A  12       0.000   0.000   0.000  1.00 92.00           C
+ATOM      2  CA  GLY A  13       3.800   0.000   0.000  1.00 91.00           C
+ATOM      3  CA  VAL A  14       7.600   0.000   0.000  1.00 90.00           C
+ATOM      4  CA  ALA A  59       7.600   4.000   0.000  1.00 76.00           C
+ATOM      5  CA  GLY A  60       3.800   4.000   0.000  1.00 78.00           C
+ATOM      6  CA  THR A  58       0.000   4.000   0.000  1.00 77.00           C
+TER
+END

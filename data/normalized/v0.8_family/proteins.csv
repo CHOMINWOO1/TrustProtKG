@@ -1,0 +1,7 @@
+protein_id,symbol,name,taxon,protein_family,family_source
+TP53_HUMAN,TP53,Cellular tumor antigen p53,Homo sapiens,tumor_suppressor,TrustProtKG curated protein-family metadata
+BRCA1_HUMAN,BRCA1,Breast cancer type 1 susceptibility protein,Homo sapiens,tumor_suppressor,TrustProtKG curated protein-family metadata
+PTEN_HUMAN,PTEN,Phosphatidylinositol 3 4 5-trisphosphate 3-phosphatase and dual-specificity protein phosphatase PTEN,Homo sapiens,tumor_suppressor,TrustProtKG curated protein-family metadata
+EGFR_HUMAN,EGFR,Epidermal growth factor receptor,Homo sapiens,receptor_tyrosine_kinase,TrustProtKG curated protein-family metadata
+ERBB2_HUMAN,ERBB2,Receptor tyrosine-protein kinase erbB-2,Homo sapiens,receptor_tyrosine_kinase,TrustProtKG curated protein-family metadata
+KRAS_HUMAN,KRAS,GTPase KRas,Homo sapiens,ras_gtpase,TrustProtKG curated protein-family metadata

@@ -1,0 +1,4 @@
+pathway_id,name,protein_id,source_db,evidence_type,confidence
+REACT:R-HSA-69563,p53 signaling pathway,TP53_HUMAN,Reactome-style benchmark,toy_pathway_membership,0.88
+REACT:R-HSA-5693532,DNA double-strand break repair,BRCA1_HUMAN,Reactome-style benchmark,toy_pathway_membership,0.87
+REACT:R-HSA-199418,negative regulation of PI3K AKT signaling,PTEN_HUMAN,Reactome-style benchmark,toy_pathway_membership,0.86

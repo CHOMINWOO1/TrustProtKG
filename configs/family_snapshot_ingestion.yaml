@@ -1,0 +1,23 @@
+snapshot:
+  name: TrustProtKG v0.8 family-aware real-derived snapshot pack
+  manifest: data/snapshots/v0.8_family/manifest.csv
+  previous_manifest: data/snapshots/v0.5_real/manifest.csv
+  output_dir: data/normalized/v0.8_family
+  benchmark_config: configs/family_snapshot_benchmark.yaml
+  provenance_report: outputs/snapshots/v0.8_family/data_provenance_report.md
+  validation_summary: outputs/snapshots/v0.8_family/validation_summary.json
+  audit_report: outputs/snapshots/v0.8_family/snapshot_audit_report.md
+  created_at: 2026-06-12T00:00:00Z
+  derived_from: local TrustProtKG v0.8 family-aware real-derived snapshot pack
+
+structure:
+  contact_threshold_angstrom: 8.0
+  structure_source_db: AlphaFold/PDB real-derived compact fragment
+
+output:
+  graph_jsonl: outputs/family_snapshot_benchmark/trustprotkg_family_snapshot.graph.jsonl
+  graphml: outputs/family_snapshot_benchmark/trustprotkg_family_snapshot.graph.graphml
+  variant_features: outputs/family_snapshot_benchmark/variant_features.csv
+  baseline_metrics: outputs/family_snapshot_benchmark/baseline_metrics.csv
+  baseline_predictions: outputs/family_snapshot_benchmark/baseline_predictions.csv
+  explanations: outputs/family_snapshot_benchmark/variant_explanations.jsonl

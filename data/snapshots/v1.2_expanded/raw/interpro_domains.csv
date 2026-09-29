@@ -1,0 +1,13 @@
+accession,entry_name,interpro_id,domain_name,chain_id,start,end,evidence_code,source_db,confidence,source_record_url,citation
+P04637,TP53_HUMAN,IPR011615,p53 DNA-binding domain,A,102,292,InterPro_entry,InterPro real-derived snapshot,0.91,https://www.ebi.ac.uk/interpro/protein/UniProt/P04637/,InterPro protein P04637
+P38398,BRCA1_HUMAN,IPR001357,BRCA1 RING-type zinc finger,A,24,64,InterPro_entry,InterPro real-derived snapshot,0.89,https://www.ebi.ac.uk/interpro/protein/UniProt/P38398/,InterPro protein P38398
+P38398,BRCA1_HUMAN,IPR001357-BRCT,BRCA1 BRCT repeat region,A,1646,1859,InterPro_entry,InterPro real-derived snapshot,0.89,https://www.ebi.ac.uk/interpro/protein/UniProt/P38398/,InterPro protein P38398
+P60484,PTEN_HUMAN,IPR013078,PTEN phosphatase domain,A,14,185,InterPro_entry,InterPro real-derived snapshot,0.90,https://www.ebi.ac.uk/interpro/protein/UniProt/P60484/,InterPro protein P60484
+P00533,EGFR_HUMAN,IPR000719,Protein kinase domain,A,712,979,InterPro_entry,InterPro real-derived snapshot,0.90,https://www.ebi.ac.uk/interpro/protein/UniProt/P00533/,InterPro protein P00533
+P04626,ERBB2_HUMAN,IPR000719,Protein kinase domain,A,720,987,InterPro_entry,InterPro real-derived snapshot,0.90,https://www.ebi.ac.uk/interpro/protein/UniProt/P04626/,InterPro protein P04626
+P04626,ERBB2_HUMAN,IPR013783,EGF receptor-like extracellular domain,A,1,620,InterPro_entry,InterPro real-derived snapshot,0.84,https://www.ebi.ac.uk/interpro/protein/UniProt/P04626/,InterPro protein P04626
+P01116,KRAS_HUMAN,IPR003577,Small GTPase superfamily domain,A,10,166,InterPro_entry,InterPro real-derived snapshot,0.91,https://www.ebi.ac.uk/interpro/protein/UniProt/P01116/,InterPro protein P01116
+P31749,AKT1_HUMAN,IPR011009,Protein kinase-like domain,A,150,408,InterPro_entry,InterPro real-derived snapshot,0.89,https://www.ebi.ac.uk/interpro/protein/UniProt/P31749/,InterPro protein P31749
+P31749,AKT1_HUMAN,IPR001849,PH domain,A,5,108,InterPro_entry,InterPro real-derived snapshot,0.87,https://www.ebi.ac.uk/interpro/protein/UniProt/P31749/,InterPro protein P31749
+P15056,BRAF_HUMAN,IPR011009,Protein kinase-like domain,A,457,717,InterPro_entry,InterPro real-derived snapshot,0.90,https://www.ebi.ac.uk/interpro/protein/UniProt/P15056/,InterPro protein P15056
+P15056,BRAF_HUMAN,IPR003116,Raf-like Ras-binding domain,A,151,232,InterPro_entry,InterPro real-derived snapshot,0.86,https://www.ebi.ac.uk/interpro/protein/UniProt/P15056/,InterPro protein P15056

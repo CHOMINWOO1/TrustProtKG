@@ -1,0 +1,4 @@
+structure_id,protein_id,structure_file,source_db
+AF-P04637-F1-REALFRAG,TP53_HUMAN,data/snapshots/v0.5_real/structures/tp53_real_fragment.pdb,AlphaFold DB real-derived compact fragment
+AF-P38398-F1-REALFRAG,BRCA1_HUMAN,data/snapshots/v0.5_real/structures/brca1_real_fragment.pdb,AlphaFold DB real-derived compact fragment
+AF-P60484-F1-REALFRAG,PTEN_HUMAN,data/snapshots/v0.5_real/structures/pten_real_fragment.pdb,AlphaFold DB real-derived compact fragment

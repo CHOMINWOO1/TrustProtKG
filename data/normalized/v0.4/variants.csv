@@ -1,0 +1,10 @@
+variant_id,protein_id,chain_id,residue_index,reference_aa,alternate_aa,clinical_label,label_binary,split,source_db,evidence_type,confidence,review_status
+V_TP53_Y5H,TP53_HUMAN,A,5,Y,H,pathogenic,1,train,ClinVar snapshot fixture,clinical_assertion,0.86,criteria_provided_single_submitter
+V_TP53_M1V,TP53_HUMAN,A,1,M,V,benign,0,train,ClinVar snapshot fixture,clinical_assertion,0.76,criteria_provided_single_submitter
+V_TP53_K8R,TP53_HUMAN,A,8,K,R,benign,0,test,ClinVar snapshot fixture,clinical_assertion,0.73,criteria_provided_single_submitter
+V_BRCA1_L4P,BRCA1_HUMAN,A,4,L,P,pathogenic,1,train,ClinVar snapshot fixture,clinical_assertion,0.82,criteria_provided_single_submitter
+V_BRCA1_D6G,BRCA1_HUMAN,A,6,D,G,pathogenic,1,test,ClinVar snapshot fixture,clinical_assertion,0.79,criteria_provided_single_submitter
+V_BRCA1_G1S,BRCA1_HUMAN,A,1,G,S,benign,0,train,ClinVar snapshot fixture,clinical_assertion,0.72,criteria_provided_single_submitter
+V_PTEN_C4Y,PTEN_HUMAN,A,4,C,Y,pathogenic,1,test,ClinVar snapshot fixture,clinical_assertion,0.84,criteria_provided_single_submitter
+V_PTEN_M1I,PTEN_HUMAN,A,1,M,I,benign,0,train,ClinVar snapshot fixture,clinical_assertion,0.74,criteria_provided_single_submitter
+V_PTEN_G8S,PTEN_HUMAN,A,8,G,S,benign,0,test,ClinVar snapshot fixture,clinical_assertion,0.71,criteria_provided_single_submitter

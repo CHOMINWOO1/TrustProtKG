@@ -1,0 +1,53 @@
+experiment:
+  name: TrustProtKG v0.9 explanation robustness perturbations
+  benchmark_config: configs/family_snapshot_benchmark.yaml
+  random_seed: 42
+  timestamp: 2026-06-12T00:00:00Z
+
+split:
+  strategy: all_family_aware
+  include_random_split: true
+  protein_column: protein_id
+  family_column: protein_family
+  column: split
+  train_value: train
+  test_value: test
+
+label:
+  column: label_binary
+
+feature_sets:
+  structure_only: residue_confidence,num_structural_contacts,avg_contact_distance
+  kg_only: is_in_domain,num_go_pathway_disease_edges
+  structure_plus_kg: residue_confidence,num_structural_contacts,avg_contact_distance,is_in_domain,num_go_pathway_disease_edges
+  no_domain: residue_confidence,num_structural_contacts,avg_contact_distance,num_go_pathway_disease_edges
+  no_structural_contacts: residue_confidence,is_in_domain,num_go_pathway_disease_edges
+
+quality:
+  max_contacts: 5
+  source_diversity_cap: 6
+  close_contact_distance: 5.0
+  supported_contact_distance: 8.0
+  min_residue_confidence: 70.0
+
+perturbations:
+  names: baseline,remove_structural_contacts,remove_domain_edges,remove_go_edges,remove_pathway_edges,remove_disease_edges,remove_source_db_interpro,weaken_source_db_go
+  weaken_confidence_scale: 0.25
+
+case_studies:
+  variant_ids: V_TP53_R273H,V_EGFR_L858R,V_KRAS_G12D
+
+outputs:
+  run_dir: experiments/runs/v0.9_perturbation
+  feature_table: variant_features.csv
+  variant_quality_scores: variant_quality_scores.csv
+  metrics: metrics.csv
+  predictions: predictions.csv
+  prediction_deltas: prediction_deltas.csv
+  quality_deltas: quality_deltas.csv
+  protein_robustness: protein_robustness.csv
+  family_robustness: family_robustness.csv
+  before_after_cards_jsonl: before_after_cards.jsonl
+  before_after_cards_markdown: before_after_cards.md
+  metadata: metadata.json
+  report: perturbation_report.md

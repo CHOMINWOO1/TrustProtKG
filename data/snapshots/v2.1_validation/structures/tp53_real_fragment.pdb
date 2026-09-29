@@ -1,0 +1,10 @@
+HEADER    TRUSTPROTKG V0.8 REAL-DERIVED TP53 PDB-STYLE FRAGMENT
+TITLE     TP53_HUMAN COMPACT FRAGMENT WITH REAL RESIDUE NUMBERING
+ATOM      1  CA  PRO A  72       0.000   0.000   0.000  1.00 78.00           C
+ATOM      2  CA  ARG A 175       3.800   0.000   0.000  1.00 91.00           C
+ATOM      3  CA  CYS A 176       7.600   0.000   0.000  1.00 90.00           C
+ATOM      4  CA  ARG A 248       7.600   4.000   0.000  1.00 88.00           C
+ATOM      5  CA  ARG A 273       3.800   4.000   0.000  1.00 89.00           C
+ATOM      6  CA  VAL A 274       0.000   4.000   0.000  1.00 86.00           C
+TER
+END

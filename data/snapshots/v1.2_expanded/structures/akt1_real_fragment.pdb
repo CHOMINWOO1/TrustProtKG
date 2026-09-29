@@ -1,0 +1,10 @@
+HEADER    TRUSTPROTKG V1.2 REAL-DERIVED AKT1 PDB-STYLE FRAGMENT
+TITLE     AKT1_HUMAN COMPACT FRAGMENT WITH REAL RESIDUE NUMBERING
+ATOM      1  CA  GLU A  17       0.000   0.000   0.000  1.00 85.00           C
+ATOM      2  CA  LYS A  18       3.800   0.000   0.000  1.00 84.00           C
+ATOM      3  CA  ARG A  25       7.600   0.000   0.000  1.00 82.00           C
+ATOM      4  CA  GLN A  79       7.600   4.000   0.000  1.00 68.00           C
+ATOM      5  CA  GLY A  80       3.800   4.000   0.000  1.00 70.00           C
+ATOM      6  CA  VAL A 164       0.000   4.000   0.000  1.00 86.00           C
+TER
+END

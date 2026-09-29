@@ -1,0 +1,4 @@
+accession,entry_name,gene_symbol,protein_name,organism,taxon_id,reviewed,source_db,evidence_type,confidence
+P04637,TP53_HUMAN,TP53,Cellular tumor antigen p53,Homo sapiens,9606,true,UniProt snapshot fixture,reviewed_protein_record,0.99
+P38398,BRCA1_HUMAN,BRCA1,Breast cancer type 1 susceptibility protein,Homo sapiens,9606,true,UniProt snapshot fixture,reviewed_protein_record,0.99
+P60484,PTEN_HUMAN,PTEN,Phosphatidylinositol 3 4 5-trisphosphate 3-phosphatase and dual-specificity protein phosphatase PTEN,Homo sapiens,9606,true,UniProt snapshot fixture,reviewed_protein_record,0.99

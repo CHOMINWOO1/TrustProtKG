@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trustprotkg"
+version = "41.0.0"
+description = "A manuscript draft scaffold for provenance-aware protein structure knowledge graph research."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "biopython>=1.83",
+    "networkx>=3.2",
+    "numpy>=1.26",
+    "pandas>=2.1",
+    "pydantic>=2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+]
+
+[project.scripts]
+trustprotkg = "trustprotkg.pipeline:main"
+
+[tool.setuptools.packages.find]
+include = ["trustprotkg*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+
+
+
+
+
+
+
+
+
+
+
+
+

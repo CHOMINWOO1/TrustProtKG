@@ -1,0 +1,27 @@
+experiment:
+  name: TrustProtKG v1.2 expanded snapshot diagnostics
+  random_seed: 42
+  timestamp: 2026-06-12T00:00:00Z
+
+input:
+  benchmark_config: configs/expanded_snapshot_benchmark.yaml
+  ingestion_validation_summary: outputs/snapshots/v1.2_expanded/validation_summary.json
+
+split:
+  protein_column: protein_id
+  family_column: protein_family
+  column: split
+  train_value: train
+  test_value: test
+
+label:
+  column: label_binary
+
+outputs:
+  run_dir: experiments/runs/v1.2_snapshot_diagnostics
+  label_diagnostics: label_diagnostics.csv
+  leakage_diagnostics: split_leakage_diagnostics.csv
+  provenance_diagnostics: provenance_diagnostics.csv
+  curation_summary: curation_summary.csv
+  metadata: metadata.json
+  report: snapshot_diagnostics_report.md

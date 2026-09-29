@@ -1,0 +1,4 @@
+structure_id,protein_id,structure_file,source_db
+AF-TP53-DEMO,TP53_HUMAN,data/structures/tp53_demo_af_style.pdb,AlphaFold-style benchmark PDB
+AF-BRCA1-DEMO,BRCA1_HUMAN,data/structures/brca1_demo_af_style.pdb,AlphaFold-style benchmark PDB
+AF-PTEN-DEMO,PTEN_HUMAN,data/structures/pten_demo_af_style.pdb,AlphaFold-style benchmark PDB

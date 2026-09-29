@@ -1,0 +1,23 @@
+snapshot:
+  name: TrustProtKG v1.4 evidence-enriched real-derived snapshot pack
+  manifest: data/snapshots/v1.4_evidence/manifest.csv
+  previous_manifest: data/snapshots/v1.2_expanded/manifest.csv
+  output_dir: data/normalized/v1.4_evidence
+  benchmark_config: configs/evidence_snapshot_benchmark.yaml
+  provenance_report: outputs/snapshots/v1.4_evidence/data_provenance_report.md
+  validation_summary: outputs/snapshots/v1.4_evidence/validation_summary.json
+  audit_report: outputs/snapshots/v1.4_evidence/snapshot_audit_report.md
+  created_at: 2026-06-12T00:00:00Z
+  derived_from: local TrustProtKG v1.4 evidence-enriched real-derived snapshot pack
+
+structure:
+  contact_threshold_angstrom: 8.0
+  structure_source_db: AlphaFold/PDB real-derived compact fragment
+
+output:
+  graph_jsonl: outputs/evidence_snapshot_benchmark/trustprotkg_evidence_snapshot.graph.jsonl
+  graphml: outputs/evidence_snapshot_benchmark/trustprotkg_evidence_snapshot.graph.graphml
+  variant_features: outputs/evidence_snapshot_benchmark/variant_features.csv
+  baseline_metrics: outputs/evidence_snapshot_benchmark/baseline_metrics.csv
+  baseline_predictions: outputs/evidence_snapshot_benchmark/baseline_predictions.csv
+  explanations: outputs/evidence_snapshot_benchmark/variant_explanations.jsonl

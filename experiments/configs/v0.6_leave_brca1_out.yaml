@@ -1,0 +1,37 @@
+experiment:
+  name: TrustProtKG v0.6 leave BRCA1 out
+  benchmark_config: configs/real_snapshot_benchmark.yaml
+  random_seed: 42
+  timestamp: 2026-06-12T00:00:00Z
+
+split:
+  strategy: leave_one_protein_out
+  holdout_protein_id: BRCA1_HUMAN
+  protein_column: protein_id
+  column: split
+  train_value: train
+  test_value: test
+
+label:
+  column: label_binary
+
+analysis:
+  low_confidence_threshold: 75.0
+  sparse_kg_threshold: 1
+
+feature_sets:
+  structure_only: residue_confidence,num_structural_contacts,avg_contact_distance
+  kg_only: is_in_domain,num_go_pathway_disease_edges
+  structure_plus_kg: residue_confidence,num_structural_contacts,avg_contact_distance,is_in_domain,num_go_pathway_disease_edges
+  no_domain: residue_confidence,num_structural_contacts,avg_contact_distance,num_go_pathway_disease_edges
+  no_structural_contacts: residue_confidence,is_in_domain,num_go_pathway_disease_edges
+
+outputs:
+  run_dir: experiments/runs/v0.6_leave_brca1_out
+  feature_table: variant_features.csv
+  metrics: metrics.csv
+  predictions: predictions.csv
+  per_protein_metrics: per_protein_metrics.csv
+  failure_modes: failure_modes.csv
+  metadata: metadata.json
+  report: cross_protein_report.md

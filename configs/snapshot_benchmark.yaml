@@ -1,0 +1,27 @@
+project:
+  name: TrustProtKG v0.4 local real-snapshot fixtures normalized benchmark
+
+input:
+  proteins: data/normalized/v0.4/proteins.csv
+  variants: data/normalized/v0.4/variants.csv
+  go_annotations: data/normalized/v0.4/go_annotations.csv
+  disease_associations: data/normalized/v0.4/disease_associations.csv
+  domains: data/normalized/v0.4/domains.csv
+  pathways: data/normalized/v0.4/pathways.csv
+  structures: data/normalized/v0.4/structures.csv
+
+structure:
+  contact_threshold_angstrom: 8.0
+  structure_source_db: AlphaFold-style snapshot fixture
+
+provenance:
+  created_at: 2026-06-12T00:00:00Z
+  derived_from: local TrustProtKG v0.4 source-like snapshots
+
+output:
+  graph_jsonl: outputs/snapshot_benchmark/trustprotkg_snapshot.graph.jsonl
+  graphml: outputs/snapshot_benchmark/trustprotkg_snapshot.graph.graphml
+  variant_features: outputs/snapshot_benchmark/variant_features.csv
+  baseline_metrics: outputs/snapshot_benchmark/baseline_metrics.csv
+  baseline_predictions: outputs/snapshot_benchmark/baseline_predictions.csv
+  explanations: outputs/snapshot_benchmark/variant_explanations.jsonl

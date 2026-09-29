@@ -1,0 +1,7 @@
+accession,entry_name,go_id,term_name,namespace,evidence_code,source_db,confidence
+P04637,TP53_HUMAN,GO:0003677,DNA binding,molecular_function,IDA,GO snapshot fixture,0.92
+P04637,TP53_HUMAN,GO:0006355,regulation of DNA-templated transcription,biological_process,IMP,GO snapshot fixture,0.84
+P38398,BRCA1_HUMAN,GO:0005515,protein binding,molecular_function,IPI,GO snapshot fixture,0.81
+P38398,BRCA1_HUMAN,GO:0006281,DNA repair,biological_process,IMP,GO snapshot fixture,0.90
+P60484,PTEN_HUMAN,GO:0016311,dephosphorylation,biological_process,IDA,GO snapshot fixture,0.88
+P60484,PTEN_HUMAN,GO:0004725,protein tyrosine phosphatase activity,molecular_function,IDA,GO snapshot fixture,0.87

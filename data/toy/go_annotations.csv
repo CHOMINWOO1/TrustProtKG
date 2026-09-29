@@ -1,0 +1,3 @@
+go_id,name,namespace,protein_id,source_db,evidence_type,confidence
+GO:0003677,DNA binding,molecular_function,TP53_HUMAN,GO-style toy,toy_manual_annotation,0.92
+GO:0006355,regulation of DNA-templated transcription,biological_process,TP53_HUMAN,GO-style toy,toy_manual_annotation,0.84

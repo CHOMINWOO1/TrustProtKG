@@ -1,0 +1,2 @@
+domain_id,protein_id,chain_id,start,end,name,source_db,evidence_type,confidence
+IPR-TP53-DBD-DEMO,TP53_HUMAN,A,3,7,p53 DNA-binding domain fragment,InterPro-style toy,toy_domain_boundary,0.9

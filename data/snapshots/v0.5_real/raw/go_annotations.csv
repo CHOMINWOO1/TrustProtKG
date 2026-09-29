@@ -1,0 +1,7 @@
+accession,entry_name,go_id,term_name,namespace,evidence_code,source_db,confidence,source_record_url,citation
+P04637,TP53_HUMAN,GO:0003677,DNA binding,molecular_function,IDA,GO real-derived snapshot,0.92,https://amigo.geneontology.org/amigo/term/GO:0003677,GO:0003677
+P04637,TP53_HUMAN,GO:0006355,regulation of DNA-templated transcription,biological_process,IMP,GO real-derived snapshot,0.84,https://amigo.geneontology.org/amigo/term/GO:0006355,GO:0006355
+P38398,BRCA1_HUMAN,GO:0005515,protein binding,molecular_function,IPI,GO real-derived snapshot,0.81,https://amigo.geneontology.org/amigo/term/GO:0005515,GO:0005515
+P38398,BRCA1_HUMAN,GO:0006281,DNA repair,biological_process,IMP,GO real-derived snapshot,0.90,https://amigo.geneontology.org/amigo/term/GO:0006281,GO:0006281
+P60484,PTEN_HUMAN,GO:0016311,dephosphorylation,biological_process,IDA,GO real-derived snapshot,0.88,https://amigo.geneontology.org/amigo/term/GO:0016311,GO:0016311
+P60484,PTEN_HUMAN,GO:0004725,protein tyrosine phosphatase activity,molecular_function,IDA,GO real-derived snapshot,0.87,https://amigo.geneontology.org/amigo/term/GO:0004725,GO:0004725

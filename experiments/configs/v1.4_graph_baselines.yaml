@@ -1,0 +1,36 @@
+experiment:
+  name: TrustProtKG v1.4 evidence-enriched snapshot graph-aware baseline modeling
+  benchmark_config: configs/evidence_snapshot_benchmark.yaml
+  random_seed: 42
+  timestamp: 2026-06-12T00:00:00Z
+
+split:
+  strategy: all_family_aware
+  include_random_split: true
+  protein_column: protein_id
+  family_column: protein_family
+  column: split
+  train_value: train
+  test_value: test
+
+label:
+  column: label_binary
+
+perturbations:
+  names: baseline,remove_structural_contacts,remove_domain_edges,remove_go_edges,remove_pathway_edges,remove_disease_edges,remove_source_db_interpro,weaken_source_db_go
+  weaken_confidence_scale: 0.25
+
+comparison:
+  transparent_reference_feature_set: transparent_structure_plus_kg
+
+outputs:
+  run_dir: experiments/runs/v1.4_graph_baselines
+  feature_table: graph_variant_features.csv
+  metrics: graph_baseline_metrics.csv
+  predictions: graph_baseline_predictions.csv
+  graph_vs_transparent: graph_vs_transparent.csv
+  perturbation_deltas: graph_perturbation_deltas.csv
+  robustness_summary: graph_robustness_summary.csv
+  graph_feature_summary: graph_feature_summary.csv
+  metadata: metadata.json
+  report: graph_baseline_report.md

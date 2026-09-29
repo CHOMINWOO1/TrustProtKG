@@ -1,0 +1,2 @@
+pathway_id,name,protein_id,source_db,evidence_type,confidence
+REACT:R-HSA-69563,p53 signaling pathway,TP53_HUMAN,Reactome-style toy,toy_pathway_membership,0.88

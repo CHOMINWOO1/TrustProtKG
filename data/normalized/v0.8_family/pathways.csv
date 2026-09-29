@@ -1,0 +1,7 @@
+pathway_id,name,protein_id,source_db,evidence_type,confidence,source_record_url,citation
+REACT:R-HSA-69563,p53 signaling pathway,TP53_HUMAN,Reactome real-derived snapshot,Reactome_TAS,0.88,https://reactome.org/content/detail/R-HSA-69563,Reactome R-HSA-69563
+REACT:R-HSA-5693532,DNA double-strand break repair,BRCA1_HUMAN,Reactome real-derived snapshot,Reactome_TAS,0.87,https://reactome.org/content/detail/R-HSA-5693532,Reactome R-HSA-5693532
+REACT:R-HSA-199418,negative regulation of PI3K AKT signaling,PTEN_HUMAN,Reactome real-derived snapshot,Reactome_TAS,0.86,https://reactome.org/content/detail/R-HSA-199418,Reactome R-HSA-199418
+REACT:R-HSA-177929,EGFR signaling pathway,EGFR_HUMAN,Reactome real-derived snapshot,Reactome_TAS,0.87,https://reactome.org/content/detail/R-HSA-177929,Reactome R-HSA-177929
+REACT:R-HSA-1227986,Signaling by ERBB2,ERBB2_HUMAN,Reactome real-derived snapshot,Reactome_TAS,0.87,https://reactome.org/content/detail/R-HSA-1227986,Reactome R-HSA-1227986
+REACT:R-HSA-5673001,RAS signaling pathway,KRAS_HUMAN,Reactome real-derived snapshot,Reactome_TAS,0.88,https://reactome.org/content/detail/R-HSA-5673001,Reactome R-HSA-5673001

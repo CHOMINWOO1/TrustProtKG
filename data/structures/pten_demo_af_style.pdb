@@ -1,0 +1,12 @@
+HEADER    TRUSTPROTKG TOY ALPHAFOLD-STYLE PDB
+TITLE     PTEN_HUMAN DEMO FRAGMENT WITH PLDDT IN B-FACTOR
+ATOM      1  CA  MET A   1       0.000   0.000   0.000  1.00 85.00           C
+ATOM      2  CA  GLU A   2       3.800   0.000   0.000  1.00 82.00           C
+ATOM      3  CA  ASP A   3       7.600   0.000   0.000  1.00 68.00           C
+ATOM      4  CA  CYS A   4      11.400   0.000   0.000  1.00 70.00           C
+ATOM      5  CA  LYS A   5       7.600   3.600   0.000  1.00 88.00           C
+ATOM      6  CA  ARG A   6       3.800   3.600   0.000  1.00 91.00           C
+ATOM      7  CA  ASN A   7       0.000   3.600   0.000  1.00 79.00           C
+ATOM      8  CA  GLY A   8      -0.500   7.200   0.000  1.00 74.00           C
+TER
+END

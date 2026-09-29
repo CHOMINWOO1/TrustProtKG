@@ -1,0 +1,4 @@
+accession,entry_name,pathway_id,pathway_name,evidence_code,source_db,confidence,source_record_url,citation
+P04637,TP53_HUMAN,REACT:R-HSA-69563,p53 signaling pathway,TAS,Reactome real-derived snapshot,0.88,https://reactome.org/content/detail/R-HSA-69563,Reactome R-HSA-69563
+P38398,BRCA1_HUMAN,REACT:R-HSA-5693532,DNA double-strand break repair,TAS,Reactome real-derived snapshot,0.87,https://reactome.org/content/detail/R-HSA-5693532,Reactome R-HSA-5693532
+P60484,PTEN_HUMAN,REACT:R-HSA-199418,negative regulation of PI3K AKT signaling,TAS,Reactome real-derived snapshot,0.86,https://reactome.org/content/detail/R-HSA-199418,Reactome R-HSA-199418

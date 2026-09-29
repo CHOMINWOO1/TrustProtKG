@@ -1,0 +1,36 @@
+experiment:
+  name: TrustProtKG v2.1 external validation snapshot scaffold
+  random_seed: 42
+  timestamp: 2026-06-12T00:00:00Z
+
+input:
+  training_ingestion_config: configs/evidence_snapshot_ingestion.yaml
+  validation_ingestion_config: configs/validation_snapshot_ingestion.yaml
+  validation_diagnostics_config: experiments/configs/v2.1_validation_snapshot_diagnostics.yaml
+  training_benchmark_config: configs/evidence_snapshot_benchmark.yaml
+  validation_benchmark_config: configs/validation_snapshot_benchmark.yaml
+  internal_graph_ml_metrics: experiments/runs/v2.0_graph_ml/graph_ml_metrics.csv
+
+embedding:
+  dimensions: 8
+
+split:
+  protein_column: protein_id
+  family_column: protein_family
+  column: split
+  train_value: train
+  test_value: test
+
+label:
+  column: label_binary
+
+outputs:
+  run_dir: experiments/runs/v2.1_external_validation
+  training_feature_table: training_variant_features.csv
+  validation_feature_table: validation_variant_features.csv
+  metrics: external_validation_metrics.csv
+  predictions: external_validation_predictions.csv
+  comparison: validation_vs_internal_graph_ml.csv
+  feature_shift_summary: feature_shift_summary.csv
+  metadata: metadata.json
+  report: external_validation_report.md

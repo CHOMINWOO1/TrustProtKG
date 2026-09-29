@@ -1,0 +1,26 @@
+experiment:
+  name: TrustProtKG v2.5 model calibration and threshold report
+  random_seed: 42
+  timestamp: 2026-06-12T00:00:00Z
+
+input:
+  internal_predictions: experiments/runs/v2.0_graph_ml/graph_ml_predictions.csv
+  validation_predictions: experiments/runs/v2.1_external_validation/external_validation_predictions.csv
+  internal_metrics: experiments/runs/v2.0_graph_ml/graph_ml_metrics.csv
+  validation_metrics: experiments/runs/v2.1_external_validation/external_validation_metrics.csv
+
+calibration:
+  bins: 5
+  thresholds: 0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9
+
+outputs:
+  run_dir: paper/v2.5
+  combined_predictions: combined_predictions.csv
+  calibration_bins: calibration_bins.csv
+  calibration_summary: calibration_summary.csv
+  threshold_sweep: threshold_sweep.csv
+  decision_thresholds: decision_thresholds.csv
+  class_balance: class_balance.csv
+  metadata: metadata.json
+  report: model_calibration_report.md
+  readme: README.md

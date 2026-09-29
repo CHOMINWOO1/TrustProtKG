@@ -1,0 +1,36 @@
+experiment:
+  name: TrustProtKG v0.5 real-derived snapshot experiment
+  benchmark_config: configs/real_snapshot_benchmark.yaml
+  random_seed: 42
+  timestamp: 2026-06-12T00:00:00Z
+
+split:
+  column: split
+  train_value: train
+  test_value: test
+
+label:
+  column: label_binary
+
+metrics:
+  names: accuracy,precision,recall,f1,auroc
+
+feature_sets:
+  structure_only: residue_confidence,num_structural_contacts,avg_contact_distance
+  kg_only: is_in_domain,num_go_pathway_disease_edges
+  structure_plus_kg: residue_confidence,num_structural_contacts,avg_contact_distance,is_in_domain,num_go_pathway_disease_edges
+  no_domain: residue_confidence,num_structural_contacts,avg_contact_distance,num_go_pathway_disease_edges
+  no_structural_contacts: residue_confidence,is_in_domain,num_go_pathway_disease_edges
+
+outputs:
+  run_dir: experiments/runs/v0.5_real_snapshot
+  graph_jsonl: graph.jsonl
+  graphml: graph.graphml
+  feature_table: variant_features.csv
+  metrics: metrics.csv
+  predictions: predictions.csv
+  error_analysis: error_analysis.csv
+  explanations: variant_explanations.jsonl
+  explanation_summaries: explanation_summaries.jsonl
+  metadata: metadata.json
+  report: report.md

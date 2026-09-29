@@ -1,0 +1,17 @@
+go_id,name,namespace,protein_id,source_db,evidence_type,confidence,source_record_url,citation
+GO:0003677,DNA binding,molecular_function,TP53_HUMAN,GO real-derived snapshot,GO_IDA,0.92,https://amigo.geneontology.org/amigo/term/GO:0003677,GO:0003677
+GO:0006355,regulation of DNA-templated transcription,biological_process,TP53_HUMAN,GO real-derived snapshot,GO_IMP,0.84,https://amigo.geneontology.org/amigo/term/GO:0006355,GO:0006355
+GO:0005515,protein binding,molecular_function,BRCA1_HUMAN,GO real-derived snapshot,GO_IPI,0.81,https://amigo.geneontology.org/amigo/term/GO:0005515,GO:0005515
+GO:0006281,DNA repair,biological_process,BRCA1_HUMAN,GO real-derived snapshot,GO_IMP,0.9,https://amigo.geneontology.org/amigo/term/GO:0006281,GO:0006281
+GO:0016311,dephosphorylation,biological_process,PTEN_HUMAN,GO real-derived snapshot,GO_IDA,0.88,https://amigo.geneontology.org/amigo/term/GO:0016311,GO:0016311
+GO:0004725,protein tyrosine phosphatase activity,molecular_function,PTEN_HUMAN,GO real-derived snapshot,GO_IDA,0.87,https://amigo.geneontology.org/amigo/term/GO:0004725,GO:0004725
+GO:0004714,transmembrane receptor protein tyrosine kinase activity,molecular_function,EGFR_HUMAN,GO real-derived snapshot,GO_IDA,0.89,https://amigo.geneontology.org/amigo/term/GO:0004714,GO:0004714
+GO:0007169,transmembrane receptor protein tyrosine kinase signaling pathway,biological_process,EGFR_HUMAN,GO real-derived snapshot,GO_IMP,0.86,https://amigo.geneontology.org/amigo/term/GO:0007169,GO:0007169
+GO:0004714,transmembrane receptor protein tyrosine kinase activity,molecular_function,ERBB2_HUMAN,GO real-derived snapshot,GO_IDA,0.88,https://amigo.geneontology.org/amigo/term/GO:0004714,GO:0004714
+GO:0007169,transmembrane receptor protein tyrosine kinase signaling pathway,biological_process,ERBB2_HUMAN,GO real-derived snapshot,GO_IMP,0.85,https://amigo.geneontology.org/amigo/term/GO:0007169,GO:0007169
+GO:0005525,GTP binding,molecular_function,KRAS_HUMAN,GO real-derived snapshot,GO_IDA,0.91,https://amigo.geneontology.org/amigo/term/GO:0005525,GO:0005525
+GO:0007265,Ras protein signal transduction,biological_process,KRAS_HUMAN,GO real-derived snapshot,GO_IMP,0.89,https://amigo.geneontology.org/amigo/term/GO:0007265,GO:0007265
+GO:0004674,protein serine/threonine kinase activity,molecular_function,AKT1_HUMAN,GO real-derived snapshot,GO_IDA,0.88,https://amigo.geneontology.org/amigo/term/GO:0004674,GO:0004674
+GO:0043491,protein kinase B signaling,biological_process,AKT1_HUMAN,GO real-derived snapshot,GO_IMP,0.86,https://amigo.geneontology.org/amigo/term/GO:0043491,GO:0043491
+GO:0004674,protein serine/threonine kinase activity,molecular_function,BRAF_HUMAN,GO real-derived snapshot,GO_IDA,0.89,https://amigo.geneontology.org/amigo/term/GO:0004674,GO:0004674
+GO:0000165,MAPK cascade,biological_process,BRAF_HUMAN,GO real-derived snapshot,GO_IMP,0.87,https://amigo.geneontology.org/amigo/term/GO:0000165,GO:0000165

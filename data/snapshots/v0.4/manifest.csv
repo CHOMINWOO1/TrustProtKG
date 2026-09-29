@@ -1,0 +1,11 @@
+source_name,source_type,version,snapshot_date,license_note,file_path,checksum,row_count
+UniProt,protein_metadata,fixture-2026-06,2026-06-12,Local source-like fixture for reproducible prototype,data/snapshots/v0.4/raw/uniprot_proteins.csv,15c015c92e92d9bcb2b74cd84069dbbabff8bb1de1b6e674dcb219927df73e5d,3
+AlphaFold DB,structure_index,fixture-2026-06,2026-06-12,Local source-like fixture for reproducible prototype,data/snapshots/v0.4/raw/alphafold_structures.csv,9d2d8f8aca9e8ec9975e5a3eabf76c30f6c85d10d0db0c1941991427f5bc41af,3
+ClinVar,variant_assertions,fixture-2026-06,2026-06-12,Local source-like fixture for reproducible prototype,data/snapshots/v0.4/raw/clinvar_variants.csv,f38ab69e49e05db08629c4ab70d08376d4865b83b5d94a0664d98ec1096b4a46,9
+Gene Ontology,go_annotations,fixture-2026-06,2026-06-12,Local source-like fixture for reproducible prototype,data/snapshots/v0.4/raw/go_annotations.csv,508394a0f554959dc23da92d0ad8bd87dde7efa8abeec408d3b0989057fe2af2,6
+InterPro,domains,fixture-2026-06,2026-06-12,Local source-like fixture for reproducible prototype,data/snapshots/v0.4/raw/interpro_domains.csv,4bd5f6b6f0e43e751c16f023341df5a2a8a98a74657c129fe819b4d6b898fb83,3
+Reactome,pathways,fixture-2026-06,2026-06-12,Local source-like fixture for reproducible prototype,data/snapshots/v0.4/raw/reactome_pathways.csv,6ebfbdd602f0ed0ab1c78b013ef27b3df715a108b390fbc7711f7d3b65fa479e,3
+MONDO/OMIM,disease_associations,fixture-2026-06,2026-06-12,Local source-like fixture for reproducible prototype,data/snapshots/v0.4/raw/disease_associations.csv,8ce6288f6413d404ecece80670744d5932dfa34313305f888625f466996885c2,3
+AlphaFold DB,structure_file_tp53,fixture-2026-06,2026-06-12,Local source-like fixture for reproducible prototype,data/structures/tp53_demo_af_style.pdb,803622b5b425cbe670f068e0426f27fc7156d2fd7be946315cf17e15dbb35c26,8
+AlphaFold DB,structure_file_brca1,fixture-2026-06,2026-06-12,Local source-like fixture for reproducible prototype,data/structures/brca1_demo_af_style.pdb,113a8624853f9a09782fd022deeb664ee9e1875f73c5b60598a958c5dd05b4db,8
+AlphaFold DB,structure_file_pten,fixture-2026-06,2026-06-12,Local source-like fixture for reproducible prototype,data/structures/pten_demo_af_style.pdb,e213f5dec2a00e21b69415d7661153ac2ec2ec2ff25b483527f2deccdb5d7b30,8

@@ -1,0 +1,27 @@
+experiment:
+  name: TrustProtKG v1.4 evidence-enriched snapshot explanation-quality summary
+  benchmark_config: configs/evidence_snapshot_benchmark.yaml
+  cross_protein_config: experiments/configs/v1.4_family_generalization.yaml
+  run_cross_protein: true
+  random_seed: 42
+  timestamp: 2026-06-12T00:00:00Z
+
+quality:
+  max_contacts: 5
+  source_diversity_cap: 6
+  close_contact_distance: 5.0
+  supported_contact_distance: 8.0
+  min_residue_confidence: 70.0
+
+case_studies:
+  variant_ids: V_TP53_R273H,V_EGFR_L858R,V_BRAF_V600E
+
+outputs:
+  run_dir: experiments/runs/v1.4_explanation_quality
+  variant_quality_scores: variant_quality_scores.csv
+  quality_by_context: explanation_quality_by_context.csv
+  quality_by_family: explanation_quality_by_family.csv
+  explanation_cards_jsonl: explanation_cards.jsonl
+  explanation_cards_markdown: explanation_cards.md
+  metadata: metadata.json
+  report: family_explanation_quality_report.md

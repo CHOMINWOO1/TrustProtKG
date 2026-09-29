@@ -1,0 +1,10 @@
+HEADER    TRUSTPROTKG V0.8 REAL-DERIVED EGFR PDB-STYLE FRAGMENT
+TITLE     EGFR_HUMAN COMPACT FRAGMENT WITH REAL RESIDUE NUMBERING
+ATOM      1  CA  ARG A 521       0.000   0.000   0.000  1.00 72.00           C
+ATOM      2  CA  GLY A 719       3.800   0.000   0.000  1.00 84.00           C
+ATOM      3  CA  VAL A 720       7.600   0.000   0.000  1.00 85.00           C
+ATOM      4  CA  LEU A 858       7.600   4.000   0.000  1.00 88.00           C
+ATOM      5  CA  ARG A 859       3.800   4.000   0.000  1.00 87.00           C
+ATOM      6  CA  GLY A 857       0.000   4.000   0.000  1.00 86.00           C
+TER
+END

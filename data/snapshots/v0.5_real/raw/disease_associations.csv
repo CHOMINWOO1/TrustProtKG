@@ -1,0 +1,4 @@
+accession,entry_name,disease_id,disease_name,evidence_code,source_db,confidence,source_record_url,citation
+P04637,TP53_HUMAN,MONDO:0018875,Li-Fraumeni syndrome,literature_seed,MONDO OMIM real-derived snapshot,0.86,https://mondo.monarchinitiative.org/,MONDO and OMIM-style TP53 association
+P38398,BRCA1_HUMAN,MONDO:0007254,hereditary breast ovarian cancer syndrome,literature_seed,MONDO OMIM real-derived snapshot,0.86,https://mondo.monarchinitiative.org/,MONDO and OMIM-style BRCA1 association
+P60484,PTEN_HUMAN,MONDO:0017623,PTEN hamartoma tumor syndrome,literature_seed,MONDO OMIM real-derived snapshot,0.85,https://mondo.monarchinitiative.org/,MONDO and OMIM-style PTEN association

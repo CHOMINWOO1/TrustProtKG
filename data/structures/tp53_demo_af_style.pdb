@@ -1,0 +1,12 @@
+HEADER    TRUSTPROTKG TOY ALPHAFOLD-STYLE PDB
+TITLE     TP53_HUMAN DEMO FRAGMENT WITH PLDDT IN B-FACTOR
+ATOM      1  CA  MET A   1       0.000   0.000   0.000  1.00 92.00           C
+ATOM      2  CA  LYS A   2       3.800   0.000   0.000  1.00 89.00           C
+ATOM      3  CA  THR A   3       7.600   0.000   0.000  1.00 87.00           C
+ATOM      4  CA  ALA A   4      11.400   0.000   0.000  1.00 82.00           C
+ATOM      5  CA  TYR A   5       7.600   4.000   0.000  1.00 76.00           C
+ATOM      6  CA  ILE A   6       3.800   4.000   0.000  1.00 80.00           C
+ATOM      7  CA  ALA A   7       0.000   4.000   0.000  1.00 85.00           C
+ATOM      8  CA  LYS A   8       0.000   8.000   0.000  1.00 79.00           C
+TER
+END

@@ -1,0 +1,7 @@
+go_id,name,namespace,protein_id,source_db,evidence_type,confidence
+GO:0003677,DNA binding,molecular_function,TP53_HUMAN,GO-style benchmark,toy_manual_annotation,0.92
+GO:0006355,regulation of DNA-templated transcription,biological_process,TP53_HUMAN,GO-style benchmark,toy_manual_annotation,0.84
+GO:0005515,protein binding,molecular_function,BRCA1_HUMAN,GO-style benchmark,toy_manual_annotation,0.81
+GO:0006281,DNA repair,biological_process,BRCA1_HUMAN,GO-style benchmark,toy_manual_annotation,0.9
+GO:0016311,dephosphorylation,biological_process,PTEN_HUMAN,GO-style benchmark,toy_manual_annotation,0.88
+GO:0004725,protein tyrosine phosphatase activity,molecular_function,PTEN_HUMAN,GO-style benchmark,toy_manual_annotation,0.87

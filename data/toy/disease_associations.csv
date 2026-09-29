@@ -1,0 +1,2 @@
+disease_id,name,protein_id,source_db,evidence_type,confidence
+MONDO:0004992,cancer predisposition syndrome,TP53_HUMAN,MONDO-style toy,toy_literature_seed,0.81

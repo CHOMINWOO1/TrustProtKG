@@ -1,0 +1,5 @@
+protein_family,display_name,description,source_db,evidence_type,confidence
+tumor_suppressor,Tumor suppressor and genome maintenance proteins,Curated grouping for TP53 BRCA1 and PTEN real-derived fixtures,TrustProtKG family metadata,curated_family_grouping,0.9
+receptor_tyrosine_kinase,ERBB receptor tyrosine kinases,Curated grouping for EGFR and ERBB2 real-derived fixtures,TrustProtKG family metadata,curated_family_grouping,0.9
+ras_gtpase,RAS small GTPases,Curated grouping for KRAS real-derived fixture,TrustProtKG family metadata,curated_family_grouping,0.9
+serine_threonine_kinase,Serine/threonine kinase signaling proteins,Curated grouping for AKT1 and BRAF real-derived fixtures,TrustProtKG family metadata,curated_family_grouping,0.9

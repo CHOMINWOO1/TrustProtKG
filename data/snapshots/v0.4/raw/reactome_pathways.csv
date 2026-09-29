@@ -1,0 +1,4 @@
+accession,entry_name,pathway_id,pathway_name,evidence_code,source_db,confidence
+P04637,TP53_HUMAN,REACT:R-HSA-69563,p53 signaling pathway,TAS,Reactome snapshot fixture,0.88
+P38398,BRCA1_HUMAN,REACT:R-HSA-5693532,DNA double-strand break repair,TAS,Reactome snapshot fixture,0.87
+P60484,PTEN_HUMAN,REACT:R-HSA-199418,negative regulation of PI3K AKT signaling,TAS,Reactome snapshot fixture,0.86

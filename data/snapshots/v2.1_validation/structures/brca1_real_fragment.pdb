@@ -1,0 +1,11 @@
+HEADER    TRUSTPROTKG V0.8 REAL-DERIVED BRCA1 PDB-STYLE FRAGMENT
+TITLE     BRCA1_HUMAN COMPACT FRAGMENT WITH REAL RESIDUE NUMBERING
+ATOM      1  CA  GLY A  60       0.000   0.000   0.000  1.00 86.00           C
+ATOM      2  CA  CYS A  61       3.800   0.000   0.000  1.00 88.00           C
+ATOM      3  CA  CYS A  62       7.600   0.000   0.000  1.00 87.00           C
+ATOM      4  CA  LYS A1183      11.400   0.000   0.000  1.00 66.00           C
+ATOM      5  CA  GLY A1774       7.600   4.000   0.000  1.00 82.00           C
+ATOM      6  CA  MET A1775       3.800   4.000   0.000  1.00 85.00           C
+ATOM      7  CA  GLY A1776       0.000   4.000   0.000  1.00 83.00           C
+TER
+END

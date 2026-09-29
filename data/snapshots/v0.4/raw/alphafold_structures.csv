@@ -1,0 +1,4 @@
+structure_id,accession,entry_name,structure_file,source_db,source_version,confidence
+AF-P04637-F1-DEMO,P04637,TP53_HUMAN,data/structures/tp53_demo_af_style.pdb,AlphaFold DB snapshot fixture,AFDB-demo-2026-06,0.95
+AF-P38398-F1-DEMO,P38398,BRCA1_HUMAN,data/structures/brca1_demo_af_style.pdb,AlphaFold DB snapshot fixture,AFDB-demo-2026-06,0.95
+AF-P60484-F1-DEMO,P60484,PTEN_HUMAN,data/structures/pten_demo_af_style.pdb,AlphaFold DB snapshot fixture,AFDB-demo-2026-06,0.95

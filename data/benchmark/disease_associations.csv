@@ -1,0 +1,4 @@
+disease_id,name,protein_id,source_db,evidence_type,confidence
+MONDO:0004992,cancer predisposition syndrome,TP53_HUMAN,MONDO-style benchmark,toy_literature_seed,0.81
+MONDO:0007254,hereditary breast ovarian cancer syndrome,BRCA1_HUMAN,MONDO-style benchmark,toy_literature_seed,0.86
+MONDO:0017623,PTEN hamartoma tumor syndrome,PTEN_HUMAN,MONDO-style benchmark,toy_literature_seed,0.85

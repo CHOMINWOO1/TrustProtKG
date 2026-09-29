@@ -1,0 +1,4 @@
+accession,entry_name,disease_id,disease_name,evidence_code,source_db,confidence
+P04637,TP53_HUMAN,MONDO:0004992,cancer predisposition syndrome,literature_seed,MONDO/OMIM snapshot fixture,0.81
+P38398,BRCA1_HUMAN,MONDO:0007254,hereditary breast ovarian cancer syndrome,literature_seed,MONDO/OMIM snapshot fixture,0.86
+P60484,PTEN_HUMAN,MONDO:0017623,PTEN hamartoma tumor syndrome,literature_seed,MONDO/OMIM snapshot fixture,0.85

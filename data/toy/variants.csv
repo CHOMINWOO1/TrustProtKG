@@ -1,0 +1,2 @@
+variant_id,protein_id,chain_id,residue_index,reference_aa,alternate_aa,clinical_label,source_db,evidence_type,confidence
+V_TP53_Y5H,TP53_HUMAN,A,5,Y,H,toy_pathogenic,ClinVar-style toy,toy_curated_assertion,0.86

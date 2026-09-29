@@ -1,0 +1,30 @@
+experiment:
+  name: TrustProtKG v2.0 lightweight graph ML baseline
+  benchmark_config: configs/evidence_snapshot_benchmark.yaml
+  random_seed: 42
+  timestamp: 2026-06-12T00:00:00Z
+
+embedding:
+  dimensions: 8
+
+split:
+  strategy: all_family_aware
+  include_random_split: true
+  protein_column: protein_id
+  family_column: protein_family
+  column: split
+  train_value: train
+  test_value: test
+
+label:
+  column: label_binary
+
+outputs:
+  run_dir: experiments/runs/v2.0_graph_ml
+  feature_table: graph_ml_variant_features.csv
+  metrics: graph_ml_metrics.csv
+  predictions: graph_ml_predictions.csv
+  comparison: graph_ml_vs_transparent.csv
+  embedding_summary: graph_embedding_summary.csv
+  metadata: metadata.json
+  report: graph_ml_report.md

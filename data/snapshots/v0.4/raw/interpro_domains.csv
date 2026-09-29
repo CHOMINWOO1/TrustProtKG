@@ -1,0 +1,4 @@
+accession,entry_name,interpro_id,domain_name,chain_id,start,end,evidence_code,source_db,confidence
+P04637,TP53_HUMAN,IPR-TP53-DBD-DEMO,p53 DNA-binding domain fragment,A,3,7,InterProScan,InterPro snapshot fixture,0.90
+P38398,BRCA1_HUMAN,IPR-BRCA1-BRCT-DEMO,BRCA1 interaction domain fragment,A,3,6,InterProScan,InterPro snapshot fixture,0.88
+P60484,PTEN_HUMAN,IPR-PTEN-PHOS-DEMO,PTEN phosphatase domain fragment,A,4,7,InterProScan,InterPro snapshot fixture,0.89

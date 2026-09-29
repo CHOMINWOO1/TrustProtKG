@@ -1,0 +1,4 @@
+structure_id,protein_id,structure_file,source_db
+AF-P04637-F1-DEMO,TP53_HUMAN,data/structures/tp53_demo_af_style.pdb,AlphaFold DB snapshot fixture
+AF-P38398-F1-DEMO,BRCA1_HUMAN,data/structures/brca1_demo_af_style.pdb,AlphaFold DB snapshot fixture
+AF-P60484-F1-DEMO,PTEN_HUMAN,data/structures/pten_demo_af_style.pdb,AlphaFold DB snapshot fixture

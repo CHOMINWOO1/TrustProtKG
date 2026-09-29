@@ -1,0 +1,9 @@
+structure_id,protein_id,structure_file,source_db
+AF-P04637-F1-V21VAL,TP53_HUMAN,data/snapshots/v2.1_validation/structures/tp53_real_fragment.pdb,AlphaFold DB real-derived compact fragment
+AF-P38398-F1-V21VAL,BRCA1_HUMAN,data/snapshots/v2.1_validation/structures/brca1_real_fragment.pdb,AlphaFold DB real-derived compact fragment
+AF-P60484-F1-V21VAL,PTEN_HUMAN,data/snapshots/v2.1_validation/structures/pten_real_fragment.pdb,AlphaFold DB real-derived compact fragment
+AF-P00533-F1-V21VAL,EGFR_HUMAN,data/snapshots/v2.1_validation/structures/egfr_real_fragment.pdb,AlphaFold DB real-derived compact fragment
+AF-P04626-F1-V21VAL,ERBB2_HUMAN,data/snapshots/v2.1_validation/structures/erbb2_real_fragment.pdb,AlphaFold DB real-derived compact fragment
+AF-P01116-F1-V21VAL,KRAS_HUMAN,data/snapshots/v2.1_validation/structures/kras_real_fragment.pdb,AlphaFold DB real-derived compact fragment
+AF-P31749-F1-V21VAL,AKT1_HUMAN,data/snapshots/v2.1_validation/structures/akt1_real_fragment.pdb,AlphaFold DB real-derived compact fragment
+AF-P15056-F1-V21VAL,BRAF_HUMAN,data/snapshots/v2.1_validation/structures/braf_real_fragment.pdb,AlphaFold DB real-derived compact fragment

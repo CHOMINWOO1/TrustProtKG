@@ -1,0 +1,4 @@
+protein_id,symbol,name,taxon
+TP53_HUMAN,TP53,Tumor protein p53,Homo sapiens
+BRCA1_HUMAN,BRCA1,Breast cancer type 1 susceptibility protein,Homo sapiens
+PTEN_HUMAN,PTEN,Phosphatase and tensin homolog,Homo sapiens

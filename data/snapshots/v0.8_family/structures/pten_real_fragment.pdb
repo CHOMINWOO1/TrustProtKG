@@ -1,0 +1,11 @@
+HEADER    TRUSTPROTKG V0.8 REAL-DERIVED PTEN PDB-STYLE FRAGMENT
+TITLE     PTEN_HUMAN COMPACT FRAGMENT WITH REAL RESIDUE NUMBERING
+ATOM      1  CA  HIS A 123       0.000   0.000   0.000  1.00 82.00           C
+ATOM      2  CA  CYS A 124       3.800   0.000   0.000  1.00 84.00           C
+ATOM      3  CA  LYS A 125       7.600   0.000   0.000  1.00 86.00           C
+ATOM      4  CA  THR A 128      11.400   0.000   0.000  1.00 82.00           C
+ATOM      5  CA  GLY A 129       7.600   4.000   0.000  1.00 85.00           C
+ATOM      6  CA  ARG A 130       3.800   4.000   0.000  1.00 83.00           C
+ATOM      7  CA  ILE A 135       0.000   4.000   0.000  1.00 70.00           C
+TER
+END

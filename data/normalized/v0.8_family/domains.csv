@@ -1,0 +1,9 @@
+domain_id,protein_id,chain_id,start,end,name,source_db,evidence_type,confidence,source_record_url,citation
+IPR011615,TP53_HUMAN,A,102,292,p53 DNA-binding domain,InterPro real-derived snapshot,InterPro_entry,0.91,https://www.ebi.ac.uk/interpro/protein/UniProt/P04637/,InterPro protein P04637
+IPR001357,BRCA1_HUMAN,A,24,64,BRCA1 RING-type zinc finger,InterPro real-derived snapshot,InterPro_entry,0.89,https://www.ebi.ac.uk/interpro/protein/UniProt/P38398/,InterPro protein P38398
+IPR001357-BRCT,BRCA1_HUMAN,A,1646,1859,BRCA1 BRCT repeat region,InterPro real-derived snapshot,InterPro_entry,0.89,https://www.ebi.ac.uk/interpro/protein/UniProt/P38398/,InterPro protein P38398
+IPR013078,PTEN_HUMAN,A,14,185,PTEN phosphatase domain,InterPro real-derived snapshot,InterPro_entry,0.9,https://www.ebi.ac.uk/interpro/protein/UniProt/P60484/,InterPro protein P60484
+IPR000719,EGFR_HUMAN,A,712,979,Protein kinase domain,InterPro real-derived snapshot,InterPro_entry,0.9,https://www.ebi.ac.uk/interpro/protein/UniProt/P00533/,InterPro protein P00533
+IPR000719,ERBB2_HUMAN,A,720,987,Protein kinase domain,InterPro real-derived snapshot,InterPro_entry,0.9,https://www.ebi.ac.uk/interpro/protein/UniProt/P04626/,InterPro protein P04626
+IPR013783,ERBB2_HUMAN,A,1,620,EGF receptor-like extracellular domain,InterPro real-derived snapshot,InterPro_entry,0.84,https://www.ebi.ac.uk/interpro/protein/UniProt/P04626/,InterPro protein P04626
+IPR003577,KRAS_HUMAN,A,10,166,Small GTPase superfamily domain,InterPro real-derived snapshot,InterPro_entry,0.91,https://www.ebi.ac.uk/interpro/protein/UniProt/P01116/,InterPro protein P01116

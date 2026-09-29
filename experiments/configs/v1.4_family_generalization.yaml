@@ -1,0 +1,39 @@
+experiment:
+  name: TrustProtKG v1.4 evidence-enriched snapshot family-aware generalization
+  benchmark_config: configs/evidence_snapshot_benchmark.yaml
+  random_seed: 42
+  timestamp: 2026-06-12T00:00:00Z
+
+split:
+  strategy: all_family_aware
+  include_random_split: true
+  protein_column: protein_id
+  family_column: protein_family
+  column: split
+  train_value: train
+  test_value: test
+
+label:
+  column: label_binary
+
+analysis:
+  low_confidence_threshold: 75.0
+  sparse_kg_threshold: 1
+
+feature_sets:
+  structure_only: residue_confidence,num_structural_contacts,avg_contact_distance
+  kg_only: is_in_domain,num_go_pathway_disease_edges
+  structure_plus_kg: residue_confidence,num_structural_contacts,avg_contact_distance,is_in_domain,num_go_pathway_disease_edges
+  no_domain: residue_confidence,num_structural_contacts,avg_contact_distance,num_go_pathway_disease_edges
+  no_structural_contacts: residue_confidence,is_in_domain,num_go_pathway_disease_edges
+
+outputs:
+  run_dir: experiments/runs/v1.4_family_generalization
+  feature_table: variant_features.csv
+  metrics: metrics.csv
+  predictions: predictions.csv
+  per_protein_metrics: per_protein_metrics.csv
+  per_family_metrics: per_family_metrics.csv
+  failure_modes: failure_modes.csv
+  metadata: metadata.json
+  report: family_generalization_report.md

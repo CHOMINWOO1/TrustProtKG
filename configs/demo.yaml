@@ -1,0 +1,26 @@
+project:
+  name: TrustProtKG demo
+  protein_id: TP53_HUMAN
+  structure_id: AF-TP53-DEMO
+
+input:
+  proteins: data/toy/proteins.csv
+  variants: data/toy/variants.csv
+  go_annotations: data/toy/go_annotations.csv
+  disease_associations: data/toy/disease_associations.csv
+  domains: data/toy/domains.csv
+  pathways: data/toy/pathways.csv
+  structure_file: data/structures/tp53_demo_af_style.pdb
+
+structure:
+  contact_threshold_angstrom: 8.0
+  structure_source_db: AlphaFold-style toy PDB
+
+provenance:
+  created_at: 2026-06-12T00:00:00Z
+  derived_from: local toy data
+
+output:
+  graph_jsonl: outputs/demo/trustprotkg.graph.jsonl
+  graphml: outputs/demo/trustprotkg.graph.graphml
+  variant_features: outputs/demo/variant_features.csv
