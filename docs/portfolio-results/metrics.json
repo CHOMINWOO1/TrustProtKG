@@ -1,0 +1,70 @@
+{
+  "subtitle": "Local scientific-core verification and a toy graph; no clinical performance claim.",
+  "panels": [
+    {
+      "title": "Local demo graph size",
+      "labels": [
+        "Nodes",
+        "Edges"
+      ],
+      "values": [
+        16,
+        54
+      ],
+      "xlabel": "Count",
+      "xlim": [
+        0,
+        70
+      ]
+    },
+    {
+      "title": "Retained scientific-core tests",
+      "labels": [
+        "Passed",
+        "Failed"
+      ],
+      "values": [
+        33,
+        0
+      ],
+      "xlabel": "Test cases",
+      "xlim": [
+        0,
+        43
+      ]
+    }
+  ],
+  "boundary": "Node/edge counts describe the demonstration graph, not model quality.\nIndependent cohort-level discrimination, calibration and generalization are not established by this demo.",
+  "sources": [
+    "VALIDATION.md",
+    "configs/demo.yaml"
+  ],
+  "interpretation": "공개본에서 확인한 16 nodes·54 edges는 toy graph 규모이며 예측 성능 지표가 아니다. 선별된 과학 핵심 테스트 33개가 통과했지만 임상 cohort나 독립 단백질 일반화 성능의 증거로 사용할 수 없다.",
+  "progress": [
+    [
+      "구조·KG·출처 추적",
+      "핵심 구현 및 local demo 실행"
+    ],
+    [
+      "공개본 테스트",
+      "33개 통과"
+    ],
+    [
+      "예측 성능·보정",
+      "독립 평가 근거 추가 필요"
+    ],
+    [
+      "임상적 유효성",
+      "현재 주장하지 않음"
+    ]
+  ],
+  "next": [
+    "단백질 단위 분리와 label leakage 점검을 포함한 외부 평가",
+    "sequence-only·structure-only·KG 결합 baseline 비교",
+    "결측 annotation·구조 신뢰도·근거 perturbation에 대한 민감도 분석"
+  ],
+  "security": "공개 입력은 local toy/curated demonstration이다. 실제 환자 변이 및 질병 연결 정보를 사용할 경우 식별 정보와 민감한 annotation을 별도로 관리해야 한다. provenance 저장이 데이터 적법성이나 임상 타당성을 보장하지 않는다.",
+  "title": "TrustProtKG | Evidence snapshot",
+  "schema_version": "1",
+  "created_on": "2026-09-29"
+}
